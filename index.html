@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DailyAgenda – Simple Daily Planner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+      background: #f5f5f7;
+      color: #1c1c1e;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #b42bff, #007bff);
+      color: white;
+      padding: 32px 16px;
+      text-align: center;
+    }
+    .icon {
+      width: 96px;
+      height: 96px;
+      border-radius: 22px;
+      margin: 0 auto 16px;
+      background-image: url("dailyagenda-icon.png"); 
+      background-size: cover;
+      background-position: center;
+    }
+    nav {
+      background: #ffffff;
+      border-bottom: 1px solid #e5e5ea;
+      padding: 8px 16px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 8px;
+      text-decoration: none;
+      color: #007aff;
+      font-size: 14px;
+    }
+    main {
+      max-width: 800px;
+      margin: 24px auto;
+      padding: 0 16px 40px;
+    }
+    h1 { font-size: 28px; margin-bottom: 8px; }
+    h2 { font-size: 20px; margin: 24px 0 8px; }
+    p { margin-bottom: 12px; font-size: 15px; }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+      margin-bottom: 16px;
+    }
+    .badges {
+      margin-top: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .badge {
+      font-size: 12px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #e5f2ff;
+      color: #004a99;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #8e8e93;
+      padding: 24px 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="icon"></div>
+    <h1>DailyAgenda</h1>
+    <p>Simple, clean daily planner to keep your day under control.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="support.html">Support</a>
+    <a href="privacy.html">Privacy Policy</a>
+  </nav>
+
+  <main>
+    <section class="card">
+      <h2>Plan your day in seconds</h2>
+      <p>
+        DailyAgenda is a lightweight daily planner designed to be fast, distraction-free
+        and easy to use. No accounts, no ads, no cloud – everything stays safely on your device.
+      </p>
+      <div class="badges">
+        <span class="badge">No sign-up required</span>
+        <span class="badge">Private – Local storage only</span>
+        <span class="badge">Designed for iPhone & iPad</span>
+        <span class="badge">Clean, minimal interface</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Key features</h2>
+      <ul>
+        <li>Create and edit tasks for each day.</li>
+        <li>Organize items in a clear list.</li>
+        <li>Mark tasks as done to track progress.</li>
+        <li>All information stays on your device.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>
+        For support or questions, email:<br />
+        <strong>dailyagenda.app@gmail.com</strong>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 DailyAgenda – Developed by Alexandru Vlad Tanasescu
+  </footer>
+</body>
+</html>
